@@ -1,6 +1,6 @@
+# From Clutter to Clarity: Visual Recognition through Foveated Object-Centric Learning (FocL)
 
-
-# Official codebase for our TMLR paper **From Clutter to Clarity: Visual Recognition through Foveated Object-Centric Learning (FocL)**.
+Official codebase for **FocL**. (TMLR 2026)
 
 **Paper:** ([OpenReview)](https://openreview.net/forum?id=kVS7sMlv7P)  
 **Authors:** Amitangshu Mukherjee, Deepak Ravikumar and Kaushik Roy (Purdue University) 
