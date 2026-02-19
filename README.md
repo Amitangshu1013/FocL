@@ -21,12 +21,16 @@ FocL trains recognition models using **object-centric foveated crops** rather th
 The core idea is to (i) localize an object (e.g., via bounding boxes), (ii) sample one or more fixation points around the object center, and (iii) train with constrained crops (“glimpses”) that emphasize object appearance while reducing background dependence.
 
 This repository contains:
-- training/evaluation scripts
-- configs + metadata for reproducibility
-- utilities for dataset splits and preprocessing
+- Training and evaluation code for FocL-style object-centric recognition.
+- Inference scripts for **ImageNet-V1**, **ImageNet-V2**, and **COCO**.
+- Reproducibility assets: configs, curated metadata, and dataset split utilities.
+- Baseline implementations for comparison:
+  - **Standard** (full-image classifier)
+  - **RoI-Align classifier**
+  - **HardMask classifier**
+- **Segment Anything Model (SAM)** integration to generate object proposals and support **cross-domain generalization** experiments on **ImageNet-V2** and **COCO**.
 
-**Not included:** datasets (ImageNet/COCO) and large checkpoints.
-
+**Not included:** datasets (ImageNet/COCO), large checkpoints, and machine-specific annotation folders.
 ---
 
 ## Installation
