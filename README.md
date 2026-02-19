@@ -40,9 +40,9 @@ This repository contains:
 ```bash
 conda env create -f focl.yml
 conda activate focl
+```
 
 ---
-
 
 ## Acknowledgements
 
@@ -62,4 +62,5 @@ This repository uses the following open-source projects as external dependencies
 
 - **Privacy-Memorization-Curvature** — reference code for memorization-related analysis/metrics used in our study.  
   Repo: https://github.com/DeepakTatachar/Privacy-Memorization-Curvature
+
 
