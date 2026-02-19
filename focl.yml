@@ -1,4 +1,4 @@
-name: sam2_env
+name: focl
 channels:
   - conda-forge
   - defaults
@@ -100,5 +100,4 @@ dependencies:
     - triton==3.1.0
     - typing-extensions==4.12.2
     - wheel==0.44.0
-prefix: /home/min/a/mukher44/miniconda3/envs/sam2_env
 
