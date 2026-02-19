@@ -31,6 +31,7 @@ This repository contains:
 - **Segment Anything Model (SAM)** integration to generate object proposals and support **cross-domain generalization** experiments on **ImageNet-V2** and **COCO**.
 
 **Not included:** datasets (ImageNet/COCO), large checkpoints, and machine-specific annotation folders.
+
 ---
 
 ## Installation
