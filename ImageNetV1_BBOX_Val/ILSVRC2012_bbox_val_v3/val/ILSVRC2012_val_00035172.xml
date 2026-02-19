@@ -1,0 +1,37 @@
+<annotation>
+	<folder>val</folder>
+	<filename>ILSVRC2012_val_00035172</filename>
+	<source>
+		<database>ILSVRC_2012</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>n02123394</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>180</xmin>
+			<ymin>0</ymin>
+			<xmax>448</xmax>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>n02123394</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>199</ymin>
+			<xmax>218</xmax>
+			<ymax>356</ymax>
+		</bndbox>
+	</object>
+</annotation>

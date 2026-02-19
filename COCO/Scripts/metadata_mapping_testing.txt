@@ -1,0 +1,6 @@
+Loading data files...                                                                                                                                                                                       
+Loaded 80 COCO categories                                                                                                                                                                                   
+Loaded 1000 ImageNet classes                                                                                                                                                                                
+Loaded 1772 RefCOCO samples                                                                                                                                                                                 
+Building ImageNet → COCO reverse mapping...                                                                                                                                                                 
+Reverse mapping covers 163 ImageNet classes     

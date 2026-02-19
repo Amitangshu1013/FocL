@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "description": "Mapping between COCO categories and ImageNet classes for FocL visual grounding experiment",
+    "coco_categories": 80,
+    "imagenet_classes": 1000,
+    "mapping_strategy": "Direct semantic matches plus hierarchical supercategory groupings",
+    "notes": "Empty arrays indicate no semantic match exists in ImageNet-1K"
+  },
+  "direct_mapping": {
+    "person": [
+      "ballplayer",
+      "groom",
+      "scuba_diver"
+    ],
+    "bicycle": [
+      "bicycle-built-for-two",
+      "mountain_bike",
+      "tricycle",
+      "unicycle"
+    ],
+    "car": [
+      "Model_T",
+      "beach_wagon",
+      "cab",
+      "convertible",
+      "jeep",
+      "limousine",
+      "minivan",
+      "passenger_car",
+      "racer",
+      "sports_car"
+    ],
+    "motorcycle": [
+      "moped",
+      "motor_scooter"
+    ],
+    "airplane": [
+      "airliner",
+      "warplane"
+    ],
+    "bus": [
+      "minibus",
+      "school_bus",
+      "trolleybus"
+    ],
+    "train": [
+      "bullet_train",
+      "electric_locomotive",
+      "steam_locomotive"
+    ],
+    "truck": [
+      "garbage_truck",
+      "moving_van",
+      "pickup",
+      "tow_truck",
+      "trailer_truck"
+    ],
+    "boat": [
+      "catamaran",
+      "canoe",
+      "container_ship",
+      "fireboat",
+      "gondola",
+      "lifeboat",
+      "liner",
+      "schooner",
+      "speedboat",
+      "trimaran",
+      "yawl"
+    ],
+    "traffic_light": [
+      "traffic_light"
+    ],
+    "fire_hydrant": [],
+    "stop_sign": [
+      "street_sign"
+    ],
+    "parking_meter": [
+      "parking_meter"
+    ],
+    "bench": [
+      "park_bench"
+    ],
+    "bird": [
+      "cock",
+      "hen",
+      "ostrich",
+      "brambling",
+      "goldfinch",
+      "house_finch",
+      "junco",
+      "robin",
+      "bulbul",
+      "jay",
+      "magpie",
+      "chickadee",
+      "kite",
+      "bald_eagle",
+      "vulture",
+      "peacock",
+      "quail",
+      "partridge",
+      "macaw",
+      "toucan",
+      "goose",
+      "pelican",
+      "king_penguin",
+      "albatross"
+    ],
+    "cat": [
+      "tabby",
+      "tiger_cat",
+      "Persian_cat",
+      "Siamese_cat",
+      "Egyptian_cat",
+      "Madagascar_cat"
+    ],
+    "dog": [
+      "Chihuahua",
+      "Maltese_dog",
+      "beagle",
+      "golden_retriever",
+      "Labrador_retriever",
+      "German_shepherd",
+      "pug",
+      "Eskimo_dog",
+      "basenji",
+      "affenpinscher"
+    ],
+    "horse": [
+      "sorrel"
+    ],
+    "sheep": [
+      "ram",
+      "bighorn"
+    ],
+    "cow": [
+      "ox"
+    ],
+    "elephant": [
+      "Indian_elephant",
+      "African_elephant"
+    ],
+    "bear": [
+      "brown_bear",
+      "American_black_bear",
+      "ice_bear",
+      "sloth_bear"
+    ],
+    "zebra": [
+      "zebra"
+    ],
+    "giraffe": [],
+    "backpack": [
+      "backpack"
+    ],
+    "umbrella": [
+      "umbrella"
+    ],
+    "handbag": [
+      "purse"
+    ],
+    "tie": [
+      "bolo_tie",
+      "bow_tie",
+      "Windsor_tie"
+    ],
+    "suitcase": [],
+    "frisbee": [],
+    "skis": [
+      "ski"
+    ],
+    "snowboard": [],
+    "sports_ball": [
+      "baseball",
+      "basketball",
+      "golf_ball",
+      "ping-pong_ball",
+      "rugby_ball",
+      "soccer_ball",
+      "tennis_ball",
+      "volleyball"
+    ],
+    "kite": [
+      "kite"
+    ],
+    "baseball_bat": [],
+    "baseball_glove": [],
+    "skateboard": [],
+    "surfboard": [],
+    "tennis_racket": [
+      "racket"
+    ],
+    "bottle": [
+      "beer_bottle",
+      "pill_bottle",
+      "pop_bottle",
+      "water_bottle",
+      "wine_bottle"
+    ],
+    "wine_glass": [
+      "beer_glass",
+      "goblet"
+    ],
+    "cup": [
+      "cup",
+      "measuring_cup",
+      "coffee_mug"
+    ],
+    "fork": [],
+    "knife": [
+      "cleaver"
+    ],
+    "spoon": [
+      "wooden_spoon"
+    ],
+    "bowl": [
+      "mixing_bowl",
+      "soup_bowl"
+    ],
+    "banana": [
+      "banana"
+    ],
+    "apple": [
+      "Granny_Smith",
+      "custard_apple"
+    ],
+    "sandwich": [],
+    "orange": [
+      "orange"
+    ],
+    "broccoli": [
+      "broccoli"
+    ],
+    "carrot": [],
+    "hot_dog": [
+      "hotdog"
+    ],
+    "pizza": [
+      "pizza"
+    ],
+    "donut": [],
+    "cake": [],
+    "chair": [
+      "barber_chair",
+      "folding_chair",
+      "rocking_chair"
+    ],
+    "couch": [
+      "studio_couch"
+    ],
+    "potted_plant": [],
+    "bed": [
+      "four-poster"
+    ],
+    "dining_table": [
+      "dining_table"
+    ],
+    "toilet": [
+      "toilet_seat"
+    ],
+    "tv": [
+      "television"
+    ],
+    "laptop": [
+      "laptop"
+    ],
+    "mouse": [
+      "mouse"
+    ],
+    "remote": [
+      "remote_control"
+    ],
+    "keyboard": [
+      "computer_keyboard",
+      "typewriter_keyboard"
+    ],
+    "cell_phone": [
+      "cellular_telephone"
+    ],
+    "microwave": [
+      "microwave"
+    ],
+    "oven": [
+      "Dutch_oven"
+    ],
+    "toaster": [
+      "toaster"
+    ],
+    "sink": [
+      "washbasin"
+    ],
+    "refrigerator": [
+      "refrigerator"
+    ],
+    "book": [
+      "book_jacket",
+      "comic_book"
+    ],
+    "clock": [
+      "analog_clock",
+      "digital_clock",
+      "wall_clock",
+      "stopwatch"
+    ],
+    "vase": [
+      "vase"
+    ],
+    "scissors": [],
+    "teddy_bear": [
+      "teddy"
+    ],
+    "hair_drier": [
+      "hand_blower"
+    ],
+    "toothbrush": []
+  },
+  "supercategory_mapping": {
+    "person": [
+      "ballplayer",
+      "groom",
+      "scuba_diver"
+    ],
+    "vehicle": [
+      "bicycle-built-for-two",
+      "mountain_bike",
+      "tricycle",
+      "unicycle",
+      "Model_T",
+      "beach_wagon",
+      "cab",
+      "convertible",
+      "jeep",
+      "limousine",
+      "minivan",
+      "passenger_car",
+      "racer",
+      "sports_car",
+      "moped",
+      "motor_scooter",
+      "airliner",
+      "warplane",
+      "minibus",
+      "school_bus",
+      "trolleybus",
+      "bullet_train",
+      "electric_locomotive",
+      "steam_locomotive",
+      "garbage_truck",
+      "moving_van",
+      "pickup",
+      "tow_truck",
+      "trailer_truck",
+      "catamaran",
+      "canoe",
+      "container_ship",
+      "fireboat",
+      "gondola",
+      "lifeboat",
+      "liner",
+      "schooner",
+      "speedboat",
+      "trimaran",
+      "yawl"
+    ],
+    "outdoor": [
+      "traffic_light",
+      "street_sign",
+      "parking_meter",
+      "park_bench"
+    ],
+    "animal": [
+      "cock",
+      "hen",
+      "ostrich",
+      "brambling",
+      "goldfinch",
+      "house_finch",
+      "junco",
+      "robin",
+      "bulbul",
+      "jay",
+      "magpie",
+      "chickadee",
+      "kite",
+      "bald_eagle",
+      "vulture",
+      "peacock",
+      "quail",
+      "partridge",
+      "macaw",
+      "toucan",
+      "goose",
+      "pelican",
+      "king_penguin",
+      "albatross",
+      "tabby",
+      "tiger_cat",
+      "Persian_cat",
+      "Siamese_cat",
+      "Egyptian_cat",
+      "Madagascar_cat",
+      "Chihuahua",
+      "Maltese_dog",
+      "beagle",
+      "golden_retriever",
+      "Labrador_retriever",
+      "German_shepherd",
+      "pug",
+      "Eskimo_dog",
+      "basenji",
+      "affenpinscher",
+      "sorrel",
+      "ram",
+      "bighorn",
+      "ox",
+      "Indian_elephant",
+      "African_elephant",
+      "brown_bear",
+      "American_black_bear",
+      "ice_bear",
+      "sloth_bear",
+      "zebra"
+    ],
+    "accessory": [
+      "backpack",
+      "umbrella",
+      "purse",
+      "bolo_tie",
+      "bow_tie",
+      "Windsor_tie"
+    ],
+    "sports": [
+      "ski",
+      "baseball",
+      "basketball",
+      "golf_ball",
+      "ping-pong_ball",
+      "rugby_ball",
+      "soccer_ball",
+      "tennis_ball",
+      "volleyball",
+      "kite",
+      "racket"
+    ],
+    "kitchen": [
+      "beer_bottle",
+      "pill_bottle",
+      "pop_bottle",
+      "water_bottle",
+      "wine_bottle",
+      "beer_glass",
+      "goblet",
+      "cup",
+      "measuring_cup",
+      "coffee_mug",
+      "cleaver",
+      "wooden_spoon",
+      "mixing_bowl",
+      "soup_bowl"
+    ],
+    "food": [
+      "banana",
+      "Granny_Smith",
+      "custard_apple",
+      "orange",
+      "broccoli",
+      "hotdog",
+      "pizza"
+    ],
+    "furniture": [
+      "barber_chair",
+      "folding_chair",
+      "rocking_chair",
+      "studio_couch",
+      "four-poster",
+      "dining_table",
+      "toilet_seat"
+    ],
+    "electronic": [
+      "television",
+      "laptop",
+      "mouse",
+      "remote_control",
+      "computer_keyboard",
+      "typewriter_keyboard",
+      "cellular_telephone"
+    ],
+    "appliance": [
+      "microwave",
+      "Dutch_oven",
+      "toaster",
+      "washbasin",
+      "refrigerator"
+    ],
+    "indoor": [
+      "book_jacket",
+      "comic_book",
+      "analog_clock",
+      "digital_clock",
+      "wall_clock",
+      "stopwatch",
+      "vase",
+      "teddy",
+      "hand_blower"
+    ]
+  },
+  "usage_notes": {
+    "for_visual_grounding": "Use direct_mapping for precise COCO\u2192ImageNet class alignment",
+    "for_feature_evaluation": "Use supercategory_mapping for broader semantic similarity testing",
+    "empty_arrays": "Indicate no semantically appropriate ImageNet class exists",
+    "proxy_experiment": "Prioritize direct_mapping matches when available, fall back to supercategory for broader evaluation"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "config": {
+    "device": "cuda",
+    "input_size": 224,
+    "min_size": 48,
+    "clamp_to_image": true,
+    "dedup_iou": 0.95,
+    "apply_area_cap": true,
+    "max_area_ratio": 0.7,
+    "topN": 20,
+    "any_k_list": [
+      5,
+      10,
+      20,
+      50,
+      300
+    ],
+    "batch_size": 128,
+    "torch_deterministic": true
+  },
+  "totals": {
+    "images": 2000,
+    "coverage": 0.9945
+  },
+  "metrics": {
+    "Any": 0.67,
+    "Top1_best_crop": 0.4045,
+    "MeanProbs": 0.4075,
+    "Voting": 0.3385,
+    "VotingWeighted": 0.403,
+    "Any@k": {
+      "5": 0.414,
+      "10": 0.565,
+      "20": 0.67,
+      "50": 0.67,
+      "300": 0.67
+    }
+  },
+  "proposal_stats": {
+    "post_dedup_pre_cap": {
+      "min": 0,
+      "median": 15.0,
+      "mean": 14.95,
+      "max": 49
+    },
+    "post_cap": {
+      "min": 0,
+      "median": 15.0,
+      "mean": 13.592,
+      "max": 20
+    }
+  },
+  "debug": {
+    "total_crops": 27184,
+    "crop_failures": 0
+  },
+  "model": {
+    "type": "standard",
+    "path": "/home/min/a/mukher44/Work/SSL/Supervised/ResNet50_MergedAB_withAug_90_3/best_model.pth"
+  },
+  "proposals_file": "PaperFinal_V1_V2/sam_proposals_relaxed_2k/SAM_proposals_relaxed_from0to2000_final.pth"
+}

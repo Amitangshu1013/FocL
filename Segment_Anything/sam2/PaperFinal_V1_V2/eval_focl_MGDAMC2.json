@@ -1,0 +1,62 @@
+{
+  "config": {
+    "device": "cuda",
+    "input_size": 224,
+    "min_size": 48,
+    "clamp_to_image": true,
+    "dedup_iou": 0.9,
+    "apply_area_cap": true,
+    "max_area_ratio": 0.7,
+    "topN": 20,
+    "any_k_list": [
+      5,
+      10,
+      20,
+      50,
+      300
+    ],
+    "batch_size": 128,
+    "torch_deterministic": true
+  },
+  "totals": {
+    "images": 2000,
+    "coverage": 0.9945
+  },
+  "metrics": {
+    "Any": 0.755,
+    "Top1_best_crop": 0.5045,
+    "MeanProbs": 0.4905,
+    "Voting": 0.416,
+    "VotingWeighted": 0.489,
+    "Any@k": {
+      "5": 0.499,
+      "10": 0.658,
+      "20": 0.755,
+      "50": 0.755,
+      "300": 0.755
+    }
+  },
+  "proposal_stats": {
+    "post_dedup_pre_cap": {
+      "min": 0,
+      "median": 15.0,
+      "mean": 14.95,
+      "max": 49
+    },
+    "post_cap": {
+      "min": 0,
+      "median": 15.0,
+      "mean": 13.592,
+      "max": 20
+    }
+  },
+  "debug": {
+    "total_crops": 27184,
+    "crop_failures": 0
+  },
+  "model": {
+    "type": "focl",
+    "path": "/home/min/a/mukher44/Work/SSL/Supervised/Merged_A_B/ResNet_50_MultiGlimpseMultiBBOX_MergedAB_90_2/best_model.pth"
+  },
+  "proposals_file": "PaperFinal_V1_V2/sam_proposals_relaxed_2k/SAM_proposals_relaxed_from0to2000_final.pth"
+}
