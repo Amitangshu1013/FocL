@@ -40,3 +40,23 @@ This repository contains:
 ```bash
 conda env create -f focl.yml
 conda activate focl
+
+## Acknowledgements
+
+This repository uses the following open-source projects as external dependencies and reference tooling. We thank the authors and maintainers:
+
+- **Segment Anything (SAM)** — used as an external model for object proposal / mask generation (i.e., proposal network) in our cross-domain generalization experiments on **ImageNet-V2** and **COCO**.  
+  Repo: https://github.com/facebookresearch/segment-anything (Apache-2.0)
+
+- **ImageNet2COCO** — utilities for ImageNet ↔ COCO label mapping / conversions used in our COCO evaluation pipeline.  
+  Repo: https://github.com/howardyclo/ImageNet2COCO
+
+- **ImageNetV2** — dataset metadata/tooling used for ImageNet-V2 evaluation.  
+  Repo: https://github.com/modestyachts/ImageNetV2
+
+- **DejaVu** — reference code used for bounding-box preparation and dataset curation utilities.  
+  Repo: https://github.com/facebookresearch/DejaVu
+
+- **Privacy-Memorization-Curvature** — reference code for memorization-related analysis/metrics used in our study.  
+  Repo: https://github.com/DeepakTatachar/Privacy-Memorization-Curvature
+
