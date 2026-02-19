@@ -3,3 +3,7 @@
 *.pth
 *.pt
 *.ckpt
+
+# local dataset / val bbox folder
+ImageNetV1_BBOX_Val/
+
